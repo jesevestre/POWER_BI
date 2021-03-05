@@ -1,0 +1,3 @@
+SELECT * FROM POLYTECH.SOCIETES_IMAGES S
+INNER JOIN POLYTECH.IMAGES I ON S.image_id=I.image_id
+/*AND LEFT (image_name, CHARINDEX('.',image_name)-1) =CDE_SOC*/
